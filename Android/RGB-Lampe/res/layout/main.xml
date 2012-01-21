@@ -2,19 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:weightSum="1">
-    <TextView android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/Red"></TextView>
-<SeekBar android:id="@+id/seekBarRed" android:layout_height="wrap_content" android:layout_width="match_parent" android:max="255"></SeekBar>
-<EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/redNum" android:inputType="number">
-    <requestFocus></requestFocus>
-</EditText>
-<TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/Green"></TextView>
-<SeekBar android:id="@+id/seekBarGreen" android:layout_height="wrap_content" android:layout_width="match_parent" android:max="255"></SeekBar>
-<EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/greenNum" android:inputType="number"></EditText>
-<TextView android:id="@+id/textView3" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/Blue"></TextView>
-<SeekBar android:id="@+id/seekBarBlue" android:layout_height="wrap_content" android:layout_width="match_parent" android:max="255"></SeekBar>
-<EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/blueNum" android:inputType="number"></EditText>
-<Button android:text="@string/Send" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="onClickSetColorListener" android:clickable="true"></Button>
-<TextView android:id="@+id/txtStatus" android:text="TextView" android:layout_height="wrap_content" android:layout_width="match_parent"></TextView>
+    android:weightSum="1" android:layout_height="match_parent">
+     
+		<TextView android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/Red"></TextView>
+		<SeekBar android:id="@+id/seekBarRed" android:layout_height="wrap_content" android:layout_width="match_parent" android:max="255"></SeekBar>
+		<EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/redNum" android:inputType="number"></EditText>
+		
+		<TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/Green"></TextView>
+		<SeekBar android:id="@+id/seekBarGreen" android:layout_height="wrap_content" android:layout_width="match_parent" android:max="255"></SeekBar>
+		<EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/greenNum" android:inputType="number"></EditText>
+		
+		<TextView android:id="@+id/textView3" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="@string/Blue"></TextView>
+		<SeekBar android:id="@+id/seekBarBlue" android:layout_height="wrap_content" android:layout_width="match_parent" android:max="255"></SeekBar>
+		<EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/blueNum" android:inputType="number"></EditText>
+		
+		<Button android:text="@string/Send" android:id="@+id/buttonSend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="onClickSetColorListener" android:clickable="true"></Button>
+		<Button android:text="@string/EnableBT" android:id="@+id/buttonBT" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="onClickEnableBt" android:clickable="true"></Button>
+		<Button android:text="@string/FindBT" android:id="@+id/buttonConnectBT" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="onClickFindBt" android:clickable="true"></Button>
+		<Button android:text="@string/DisableBT" android:id="@+id/buttonDisableBT" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="onClickDisableBt" android:clickable="true"></Button>
+		<TextView android:id="@+id/txtStatus" android:text="TextView" android:layout_height="wrap_content" android:layout_width="match_parent"></TextView>
 </LinearLayout>

@@ -4,5 +4,16 @@
     <string name="Green">Green</string>
     <string name="Blue">Blue</string>
     <string name="Send">Let there be light!</string>
+    <string name="EnableBT">Enable BT!</string>
+    <string name="FindBT">Find Device!</string>
+    <string name="DisableBT">Disable BT!</string>
     <string name="app_name">RGB-Lampe</string>
+    <string name="title_paired_devices">RGB-Lampe</string>
+    <string name="title_other_devices">RGB-Lampe</string>
+    <string name="button_scan">RGB-Lampe</string>
+    <string name="connect">RGB-Lampe</string>
+    <string name="discoverable">RGB-Lampe</string>
+    
+    
 </resources>
+ 
