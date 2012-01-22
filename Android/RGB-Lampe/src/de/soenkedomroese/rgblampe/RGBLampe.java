@@ -54,4 +54,15 @@ public class RGBLampe extends Activity {
 				BluetoothAdapter.ACTION_REQUEST_DISCOVERABLE);
 		startActivityForResult(enabler, REQUEST_DISCOVERABLE);
 	}
+	
+	
+	public void onClickFindBt(View view) {
+		TextView status = (TextView) findViewById(R.id.txtStatus);
+		status.setText(R.string.notimplemented);
+	}
+	
+	public void onClickDisableBt(View view) {
+		// disable
+		_bluetooth.disable();
+	}	
 }

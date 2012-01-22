@@ -13,7 +13,6 @@
     <string name="button_scan">RGB-Lampe</string>
     <string name="connect">RGB-Lampe</string>
     <string name="discoverable">RGB-Lampe</string>
-    
-    
+    <string name="notimplemented">Method not Implemented</string>
 </resources>
  
