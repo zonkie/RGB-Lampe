@@ -57,8 +57,8 @@ public class RGBLampe extends Activity {
 	
 	
 	public void onClickFindBt(View view) {
-		TextView status = (TextView) findViewById(R.id.txtStatus);
-		status.setText(R.string.notimplemented);
+		Intent enabler = new Intent(this, DiscoveryActivity.class);
+		startActivity(enabler);
 	}
 	
 	public void onClickDisableBt(View view) {
